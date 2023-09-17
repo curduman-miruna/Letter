@@ -11,11 +11,15 @@
             în biroul de la Automatizări Nivelul 2. Am început ca un bobocel de rață speriat în sala de la învățămnt la a prefera să vin uneori
             la birou în loc de Clubul Liberty.
         </p>
-        <p>
-            Una dintre lecțiile pe care am învățat-o de la voi este <b>„Regula de aur”</b> a site-ului stackoverflow,
-            respectiv: <i>Niciodată nu vom copia din întrebare, ci doar răspuns</i>. Nu pot decât să spun că mi-au trebuit căteva erori în plus pentru a o învăța.
-        </p>
-        <div style="width:100%;height:0;padding-bottom:66%;position:relative;"><iframe src="https://giphy.com/embed/Rkis28kMJd1aE" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/angry-broken-computers-Rkis28kMJd1aE">via GIPHY</a></p>
+        <div class="side-by-side-container">
+            <p>
+                Una dintre lecțiile pe care am învățat-o de la voi este <b>„Regula de aur”</b> a site-ului stackoverflow,
+                respectiv: <i>Niciodată nu vom copia din întrebare, ci doar răspuns</i>. Nu pot decât să spun că mi-au trebuit căteva erori în plus pentru a o învăța.
+            </p>
+            <div class="iframe-container">
+                <iframe src="https://giphy.com/embed/Rkis28kMJd1aE" width="100%" height="100%" frameborder="0" class="giphy-embed" allowfullscreen></iframe>
+            </div>
+        </div>
 
 
 
@@ -41,3 +45,26 @@
             Cu sinceritate, Miruna.
         </p>
 
+<style>
+    .side-by-side-container {
+        display: flex;
+        flex-wrap: wrap; 
+        align-items: flex-start; 
+    }
+
+        .side-by-side-container p {
+            flex: 1; 
+            padding: 10px; 
+        }
+
+    .iframe-container {
+        flex: 1; 
+        padding: 10px; 
+    }
+
+        .iframe-container iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+</style>
